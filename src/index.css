@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #111827;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 2rem;
+  text-align: center;
+}

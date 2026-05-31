@@ -12,11 +12,63 @@
   box-sizing: border-box;
 }
 
-
-
 body {
     margin: 20px;
     font-family: "Nunito", sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    height: max-content;
+    object-fit: cover;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.card {
+    width: min(100%, 400px);
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #023047;
+    color: #fefae0;
+    border-top: 6px solid #ffb703;
+    border-bottom: 6px solid #ffb703;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+a {
+    color: #fefae0;
+}
+
+a:hover{
+    color: #ffb703;
+}
+
+.border-blue {
+  border: 1px dotted blue;
+}
+
+.projects {
+  display: flex;
+  margin: 20px;
+}
+.project {
+  width: min(100%, 400px);
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #023047;
+  color: #fefae0;
+  border: 6px solid #ffb703;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
 }
 
 main {

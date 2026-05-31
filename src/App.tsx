@@ -28,6 +28,24 @@ function App() {
             tenetur ad aperiam deleniti ea ex.
           </p>
         </div>
+        <div className="project" id="project-2">
+          <h4>Project Two</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+            nihil aut aliquam quidem officiis voluptatibus consequuntur
+            exercitationem! Esse ut enim adipisci molestias, facilis quaerat
+            tenetur ad aperiam deleniti ea ex.
+          </p>
+        </div>
+          <div className="project" id="project-3">
+            <h4>Project Three</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+              nihil aut aliquam quidem officiis voluptatibus consequuntur
+              exercitationem! Esse ut enim adipisci molestias, facilis quaerat
+              tenetur ad aperiam deleniti ea ex.
+            </p>
+          </div>
       </div>
 
       
